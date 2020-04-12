@@ -1,18 +1,25 @@
 ﻿<Properties StartupConfiguration="{99EEAB7B-9A59-4D4B-8E54-9C33DB7F70D8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/UsersController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/UserService.cs">
     <Files>
-      <File FileName="Controllers/UsersController.cs" Line="58" Column="6" />
-      <File FileName="Services/UserService.cs" Line="1" Column="1" />
+      <File FileName="Controllers/UsersController.cs" Line="8" Column="10" />
+      <File FileName="Services/UserService.cs" Line="21" Column="18" />
+      <File FileName="Startup.cs" Line="55" Column="51" />
+      <File FileName="Entities/Role.cs" Line="1" Column="1" />
+      <File FileName="Entities/User.cs" Line="1" Column="1" />
+      <File FileName="Helpers/AppSettings.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WebApi" expanded="True">
             <Node name="WebApi" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="UsersController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="UserService.cs" selected="True" />
               </Node>
-              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -38,6 +45,7 @@
       <Breakpoint file="/Users/alvaroemparan/Documents/GitHub/aspnet-core-role-based-authorization-api/Controllers/UsersController.cs" relfile="Controllers/UsersController.cs" line="51" column="1" />
       <Breakpoint file="/Users/alvaroemparan/Documents/GitHub/aspnet-core-role-based-authorization-api/Controllers/UsersController.cs" relfile="Controllers/UsersController.cs" line="52" column="1" />
       <Breakpoint file="/Users/alvaroemparan/Documents/GitHub/aspnet-core-role-based-authorization-api/Controllers/UsersController.cs" relfile="Controllers/UsersController.cs" line="53" column="1" />
+      <Breakpoint file="/Users/alvaroemparan/Documents/GitHub/aspnet-core-role-based-authorization-api/Services/UserService.cs" relfile="Services/UserService.cs" line="64" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

@@ -49,7 +49,7 @@ namespace WebApi.Controllers
 
             // only allow admins to access other user records
             var currentUserId = int.Parse(User.Identity.Name);
-            if (id != currentUserId && !User.IsInRole(Role.Admin)) {
+            if (id != currentUserId && !User.IsInRole(Role.User)) {
                 return Forbid();
             }
 
